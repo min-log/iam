@@ -1,12 +1,7 @@
-<%@ include file="index.jsp" %>
-<jsp:include page="index.jsp" />
-<%@ include file="./index.jsp" %>
-출처: https://yongblog.tistory.com/26 [기억력이 나쁜 나에게 주는 페이지:티스토리]
-출처: https://yongblog.tistory.com/26 [기억력이 나쁜 나에게 주는 페이지:티스토리]
+<? include("./inc/headerScript.jsp");?>
+<? include("./inc/header.jsp");?>
 
+<? include("./index.jsp");?>
 
-<jsp:include page="index.jsp"> <jsp:param value="ok" name="flag"/></jsp:include>
-<% String url = http://localhost:1234/index.jsp; %>
-<c:import url="<%= url %>" charEncoding="EUC-KR">
-	<c:param name="query" value="민원" />
-<c:param name="method" value="get" /></c:import>
+<? include("./inc/footer.jsp");?>
+

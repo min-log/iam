@@ -1,5 +1,4 @@
-<%@ include file="inc/headerScript.jsp" %>
-<%@ include file="inc/header.jsp" %>
+
 
 <link rel="stylesheet" href="./resource/css/pages/main.css">
 <link rel="stylesheet" href="./resource/css/pages/main_media.css">
@@ -811,4 +810,3 @@
 
 </script>
 
-<%@ include file="inc/footer.jsp" %>
